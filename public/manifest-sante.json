@@ -1,22 +1,37 @@
 {
-  "name": "Prism Santé",
-  "short_name": "Santé",
-  "description": "Suivi d'activité et d'alimentation",
+  "name": "Prism Sant\u00e9",
+  "short_name": "Sant\u00e9",
+  "description": "Alimentation, sport et sant\u00e9",
   "start_url": "/prism-sante/",
+  "scope": "/prism-sante/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#0A2342",
   "theme_color": "#0A2342",
-  "orientation": "portrait",
   "icons": [
     {
-      "src": "https://api.iconify.design/emojione:money-bag.svg?width=192&height=192",
+      "src": "/prism-sante/icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "https://api.iconify.design/emojione:money-bag.svg?width=512&height=512",
+      "src": "/prism-sante/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/prism-sante/icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/prism-sante/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
